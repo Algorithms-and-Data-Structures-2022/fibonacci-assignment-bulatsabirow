@@ -11,7 +11,7 @@ namespace assignment {
   using Matrix2x2 = std::array<std::array<int, 2>, 2>;
 
   // единичная матрица (identity matrix)
-  inline constexpr Matrix2x2 IdentityMatrix = {{{1, 0}, {0, 1}}};
+  inline constexpr Matrix2x2 IdentityMatrix = {{{1, 1}, {1, 0}}};
 
   /**
    * Вычисление произведения двух матриц размерностью 2x2.
